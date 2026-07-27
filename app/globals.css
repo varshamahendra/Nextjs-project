@@ -3,13 +3,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  overflow: auto;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --font-display: "Lora", serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +20,40 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+.box_container {
+  background: linear-gradient(90deg, #191a1a 0%, #57748ba6 50%, #0c3b60 100%);
+  padding: 30px;
+}
+.hero {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-bg {
+  background-image: url("/assets/home/background-home-desktop.jpg");
+}
+.destination-bg {
+  background-image: url("/assets/destination/background-destination-desktop.jpg");
+}
+.crew-bg {
+  background-image: url("/assets/crew/background-crew-desktop.jpg");
+}
+.technology-bg {
+  background-image: url("/assets/technology/background-technology-desktop.jpg");
+}
+@media (max-width: 1023px) {
+  .home-bg {
+    background-image: url("/assets/home/background-home-tablet.jpg");
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
