@@ -12,7 +12,7 @@ const Technologypage = () => {
       <div className="flex gap-5 items-center">
         <h3 className="text-gray-600 font-bold text-4xl"> 03</h3>
         <h4 className="text-white uppercase text-[20px] tracking-[4px] ">
-          Space launch 101
+          Space launch 102
         </h4>
       </div>
       <div className="flex justify-between flex-col-reverse lg:flex-row items-center md:gap-5 gap-[30px]">

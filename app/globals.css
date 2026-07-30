@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #ede8e8;
   --foreground: #171717;
   overflow: auto;
 }
@@ -18,7 +18,7 @@
 }
 
 body {
-  background: var(--background);
+  background: #ede8e8;
   color: var(--foreground);
 }
 .box_container {
@@ -41,6 +41,16 @@ body {
 }
 .technology-bg {
   background-image: url("/assets/technology/background-technology-desktop.jpg");
+}
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: auto 1fr 1fr;
+}
+.grid-item.nested-grid {
+  display: grid;
+  grid-template-columns: 1.5em 200px;
+  grid-template-rows: 150px 4rem;
 }
 @media (max-width: 1023px) {
   .home-bg {

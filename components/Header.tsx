@@ -25,9 +25,13 @@ const Header = () => {
     },
     {
       index: "03",
-
       name: "Technology",
       path: "/technology",
+    },
+    {
+      index: "04",
+      name: "Bento grid",
+      path: "/bento",
     },
   ];
   return (
