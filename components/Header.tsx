@@ -30,8 +30,18 @@ const Header = () => {
     },
     {
       index: "04",
-      name: "Bento grid",
+      name: "Bento ",
       path: "/bento",
+    },
+    {
+      index: "05",
+      name: "Testimonials",
+      path: "/testimonials",
+    },
+    {
+      index: "06",
+      name: "Social",
+      path: "/social",
     },
   ];
   return (
